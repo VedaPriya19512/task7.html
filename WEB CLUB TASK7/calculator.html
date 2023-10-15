@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main{
+            margin: auto;
+            width: 50%;
+            margin-top: 5px;
+            margin-left: 500px;
+            border:  2px solid #E2E8F0;
+            height: 500px;
+            width: 400px;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        .b{
+            display: grid;
+            grid-template-columns:repeat(4,1fr);
+            gap: 20px 20px;
+            margin-left: 28px;
+            margin-right: 28px;
+        }
+        .h{
+            font-style: normal;
+            color: green;
+            margin-left: 600px;
+            margin-top:150px;
+            width: 50%;
+            font-size: 40px;
+        }
+        .b > div
+        {
+            width: 40px;
+            height: 30px;
+            padding:10px;
+            font-weight: 900;
+            font-size: larger;
+            text-align: center;
+            border-radius:4px;
+            margin-left: 10px;
+            border:  2px solid #E2E8F0;
+             box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        .in{
+    
+            width: 330px ;
+            height: 43px;
+            margin-top: 25px;
+            margin-bottom: 50px;
+            margin-left:38px;
+            border-radius: 4px;
+            border:  2px solid #E2E8F0;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+        }
+        .b :nth-child(4n){
+            background-color: green;
+            color: antiquewhite;
+        }
+        .b18{
+            background-color: blue;
+            color: rgb(18, 1, 1);
+        }
+        .b19{
+            background-color: red;
+            color: rgb(14, 9, 1);
+
+        }
+    </style>
+    
+</head>
+<body>
+    <h1 class="h">calculator</h1>
+    
+    <div class="main">
+        <input class="in" type="text">
+        <div class="b">
+        <div class="b1">1</div>
+        <div class="b2">2</div>
+        <div class="b3">3</div>
+        <div class="b4">+</div>
+        <div class="b5">4</div>
+        <div class="b6">5</div>
+        <div class="b7">6</div>
+        <div class="b8">-</div>
+        <div class="b9">7</div>
+        <div class="b10">8</div>
+        <div class="b11">9</div>
+        <div class="b12">*</div>
+        <div class="b13">00</div>
+        <div class="b14">0</div>
+        <div class="b15">.</div>
+        <div class="b16">/</div>
+        <div class="b18">AC</div>
+        <div class="b19">DEL</div>
+        <div class="b20">%</div>
+        <div class="b21">=</div>
+    </div>
+
+    </div>
+    
+</body>
+</html>
